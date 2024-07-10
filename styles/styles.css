@@ -1,0 +1,70 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Azeret Mono', monospace;
+}
+/* style for the bg section*/
+.Hero-bg{
+    height: 680px;
+    background-image: url(../assets/Hero-bg.png); /* bg image*/
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    position: absolute;
+    width: calc(100% - 442px);
+    height: 582px;
+    left: 221px;
+    top: 100px;
+    /* flexbox for layout*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.head-image{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.head-title{
+    color: #0D1321;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 58px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.head-description{
+    color: #0D1321;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.button{
+    display: inline-block;
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    background: #0D1321;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px auto;
+}
