@@ -15,7 +15,7 @@ body{
     background-size: cover;
     background-position: center;
 }
-.head{
+.banner{
     position: absolute;
     width: calc(100% - 442px);
     height: 582px;
@@ -28,12 +28,12 @@ body{
     align-items: center;
     padding: 20px;
 }
-.head-image{
+.banner-image{
     width: 200px;
     height: auto;
     margin-bottom: 20px;
 }
-.head-title{
+.banner-title{
     color: #0D1321;
     font-size: 40px;
     font-weight: 800;
@@ -42,7 +42,7 @@ body{
     text-align: center;
     margin-bottom: 20px;
 }
-.head-description{
+.banner-description{
     color: #0D1321;
     font-size: 18px;
     font-weight: 400;
@@ -69,3 +69,141 @@ body{
     padding: 10px;
     margin: 20px auto;
 }
+
+/* Why Web Development? */
+.section-1{
+    width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 97px;
+    background: #0D132105;
+    border-radius: 16px;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.title-1{
+    color: #0D1321;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.p-1{
+    color: #0D1321;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin: 32px 0;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFFFFF, #FFFFFF00 100%);
+}
+.block-image{
+    width: 274px;
+    height: auto;
+}
+.block div{
+    flex: 1;
+    margin-right: 20px;
+}
+.block h3{
+    color: #0D1321B3;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.block p{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.block button{
+    border: 1px solid #0D1321;
+    color: #0D1321;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+ /* My Current Target */
+.section-3{
+    text-align: center;
+    padding: 20px 0;
+    margin: 50px auto;
+}
+.title-3{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.p-3{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.card{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.html-card{
+    background-color: #f0f8ff;
+}
+.css-card{
+    background-color: #e6e6fa;
+}
+.js-card{
+    background-color: #fffacd;
+}
+.card h3{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.card p{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.learn-more-link{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.learn-more-link:hover{
+    text-decoration: none;
+}
+
